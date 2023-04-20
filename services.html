@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Services - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap"
+    />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-md sticky-top navbar-shrink py-3"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html"
+          ><span
+            class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"
+            ><i class="fab fa-reacteurope"></i></span
+          ><span>E-Mandi</span></a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-1"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="services.html">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://agmarknet.gov.in/Others/final_guidelines_2014.pdf"
+                >Operational Guidelines</a
+              >
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+          <a class="btn btn-primary shadow" role="button" href="services.html"
+            >Get Prices</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section
+      class="py-5"
+      style="
+        background: linear-gradient(
+          black,
+          var(--bs-indigo) 38%,
+          var(--bs-gray-300) 100%
+        );
+      "
+    >
+      <section class="py-4 py-xl-5">
+        <div class="container">
+          <div
+            class="row d-flex justify-content-center"
+            style="margin-top: 1px"
+          >
+            <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+              <div class="card mb-5">
+                <div
+                  class="card-body p-sm-5"
+                  style="box-shadow: inset 0px 0px; margin-right: -1px"
+                >
+                  <h2 class="text-center mb-4">Price Forecast</h2>
+                  <form method="post" id="form">
+                    <div class="mb-3">
+                      <select
+                        class="form-select"
+                        style="margin-top: 17px; margin-bottom: 17px"
+                        id="1"
+                      >
+                        <option selected="selected" value="0">
+                          Select Market
+                        </option>
+                        <option value="1380">A lot</option>
+                        <option value="1381">Agar</option>
+                        <option value="2733">Ajaygarh</option>
+                        <option value="2716">Akodia</option>
+                        <option value="4204">Akodiya</option>
+                        <option value="3048">Alampur</option>
+                        <option value="1373">Alirajpur</option>
+                        <option value="3876">Alirajpur(F&amp;V)</option>
+                        <option value="3044">Amarpatan</option>
+                        <option value="8328">Amarwda</option>
+                        <option value="3067">Ambaha</option>
+                        <option value="2699">Anjad</option>
+                        <option value="3136">Anuppur</option>
+                        <option value="2443">Aron</option>
+                        <option value="185">Ashoknagar</option>
+                        <option value="3888">Ashoknagar(F&amp;V)</option>
+                        <option value="552">Ashta</option>
+                        <option value="8311">Babai</option>
+                        <option value="2454">Badamalhera</option>
+                        <option value="2706">Badarwas</option>
+                        <option value="2425">Badnagar</option>
+                        <option value="2419">Badnawar</option>
+                        <option value="3875">Badnawar(F&amp;V)</option>
+                        <option value="2729">Badod</option>
+                        <option value="2438">Badwaha</option>
+                        <option value="2464">Badwani</option>
+                        <option value="3135">Bagli</option>
+                        <option value="1393">Baikunthpur</option>
+                        <option value="8319">Bakswaha</option>
+                        <option value="3070">Baktara</option>
+                        <option value="1123">Balaghat</option>
+                        <option value="3901">Balaghat(F&amp;V)</option>
+                        <option value="3051">Balwadi</option>
+                        <option value="2713">Bamora</option>
+                        <option value="2420">Banapura</option>
+                        <option value="2467">Banda</option>
+                        <option value="2456">Bankhedi</option>
+                        <option value="8316">Banmorkalan</option>
+                        <option value="8314">Barad</option>
+                        <option value="2436">Bareli</option>
+                        <option value="3803">Barghat</option>
+                        <option value="2450">Begamganj</option>
+                        <option value="2727">Beohari</option>
+                        <option value="3050">Berachha</option>
+                        <option value="1130">Berasia</option>
+                        <option value="555">Betul</option>
+                        <option value="3052">Bhander</option>
+                        <option value="3934">Bhanpura</option>
+                        <option value="3069">Bhensdehi</option>
+                        <option value="2422">Bhikangaon</option>
+                        <option value="556">Bhind</option>
+                        <option value="3890">Bhind(F&amp;V)</option>
+                        <option value="8315">Bhitarwar</option>
+                        <option value="180">Bhopal</option>
+                        <option value="181">Bhopal(F&amp;V)</option>
+                        <option value="1834">Biaora</option>
+                        <option value="2742">Bichhiya</option>
+                        <option value="8318">Bijawar</option>
+                        <option value="2426">Bina</option>
+                        <option value="2705">Binaganj</option>
+                        <option value="3805">Budhar</option>
+                        <option value="846">Burhanpur</option>
+                        <option value="3879">Burhanpur(F&amp;V)</option>
+                        <option value="3054">Chaakghat</option>
+                        <option value="8205">Chanderi</option>
+                        <option value="1390">Chaurai</option>
+                        <option value="2726">Chhapiheda</option>
+                        <option value="818">Chhatarpur</option>
+                        <option value="541">Chhindwara</option>
+                        <option value="3902">Chhindwara(F&amp;V)</option>
+                        <option value="3065">Chhpara</option>
+                        <option value="186">Dabra</option>
+                        <option value="8312">Daloda</option>
+                        <option value="565">Damoh</option>
+                        <option value="3895">Damoh(F&amp;V)</option>
+                        <option value="566">Datia</option>
+                        <option value="1386">Deori</option>
+                        <option value="2722">Devandranagar</option>
+                        <option value="182">Dewas</option>
+                        <option value="3881">Dewas(F&amp;V)</option>
+                        <option value="1125">Dhamnod</option>
+                        <option value="542">Dhar</option>
+                        <option value="3874">Dhar(F&amp;V)</option>
+                        <option value="1392">Dindori</option>
+                        <option value="2433">Gadarwada</option>
+                        <option value="2442">Gairatganj</option>
+                        <option value="3060">Gandhwani</option>
+                        <option value="198">Ganjbasoda</option>
+                        <option value="2462">Garhakota</option>
+                        <option value="4192">Garoth</option>
+                        <option value="2457">Gautampura</option>
+                        <option value="3056">Ghansour</option>
+                        <option value="1383">Gohad</option>
+                        <option value="2734">Gorakhpur</option>
+                        <option value="2437">Gotegaon</option>
+                        <option value="3795">Gulabganj</option>
+                        <option value="544">Guna</option>
+                        <option value="3887">Guna(F&amp;V)</option>
+                        <option value="2721">Haatpipliya</option>
+                        <option value="2740">Hanumana</option>
+                        <option value="1126">Harda</option>
+                        <option value="3872">Harda(F&amp;V)</option>
+                        <option value="2694">Harpalpur</option>
+                        <option value="2725">Harsood</option>
+                        <option value="2720">Hata</option>
+                        <option value="3071">Hoshangabad</option>
+                        <option value="3045">Ichhawar</option>
+                        <option value="3873">Indore</option>
+                        <option value="187">Indore(F&amp;V)</option>
+                        <option value="3058">Isagarh</option>
+                        <option value="543">Itarsi</option>
+                        <option value="559">Jabalpur</option>
+                        <option value="3898">Jabalpur(F&amp;V)</option>
+                        <option value="8317">Jaisinagar</option>
+                        <option value="3806">Jaithari</option>
+                        <option value="1127">Jaora</option>
+                        <option value="2738">Jatara</option>
+                        <option value="3134">Javad</option>
+                        <option value="2471">Javera</option>
+                        <option value="8308">Jawar</option>
+                        <option value="2448">Jeerapur</option>
+                        <option value="2459">Jhabua</option>
+                        <option value="2732">Jobat</option>
+                        <option value="3799">Jora</option>
+                        <option value="1384">Kailaras</option>
+                        <option value="2447">Kalapipal</option>
+                        <option value="2445">Kannod</option>
+                        <option value="2424">Kareli</option>
+                        <option value="2714">Karera</option>
+                        <option value="2696">Karhi</option>
+                        <option value="2703">Kasrawad</option>
+                        <option value="2470">Katangi</option>
+                        <option value="188">Katni</option>
+                        <option value="3900">Katni(F&amp;V)</option>
+                        <option value="2465">Keolari</option>
+                        <option value="3055">Kesli</option>
+                        <option value="2708">Khachrod</option>
+                        <option value="8327">Khairlangi</option>
+                        <option value="547">Khandwa</option>
+                        <option value="3877">Khandwa(F&amp;V)</option>
+                        <option value="2469">Khaniadhana</option>
+                        <option value="4220">Khanyadhana</option>
+                        <option value="8323">Khargapur</option>
+                        <option value="548">Khargone</option>
+                        <option value="1378">Khategaon</option>
+                        <option value="3797">Khatora</option>
+                        <option value="2692">Khetia</option>
+                        <option value="2702">Khilchipur</option>
+                        <option value="2423">Khirakiya</option>
+                        <option value="2724">Khujner</option>
+                        <option value="1385">Khurai</option>
+                        <option value="2449">Kolaras</option>
+                        <option value="3807">Kotma</option>
+                        <option value="1372">Kukshi</option>
+                        <option value="1382">Kumbhraj</option>
+                        <option value="2698">Kurawar</option>
+                        <option value="2745">Kurwai</option>
+                        <option value="2739">Lahar</option>
+                        <option value="3061">Lakhnadon</option>
+                        <option value="3905">Lakhnadon(F&amp;V)</option>
+                        <option value="3800">Lalbarra</option>
+                        <option value="545">Lashkar</option>
+                        <option value="3886">Lashkar(F&amp;V)</option>
+                        <option value="3046">Lateri</option>
+                        <option value="1388">LavKush Nagar(Laundi)</option>
+                        <option value="2695">Loharda</option>
+                        <option value="3047">Machalpur</option>
+                        <option value="2737">Magroni</option>
+                        <option value="1376">Mahidpur</option>
+                        <option value="2712">Maksi</option>
+                        <option value="2704">Maksudangarh</option>
+                        <option value="4397">Malthone</option>
+                        <option value="2455">Manasa</option>
+                        <option value="2430">Manawar</option>
+                        <option value="820">Mandla</option>
+                        <option value="546">Mandsaur</option>
+                        <option value="3882">Mandsaur(F&amp;V)</option>
+                        <option value="3053">Mehar</option>
+                        <option value="3798">Mehgaon</option>
+                        <option value="819">Mhow</option>
+                        <option value="3801">Mohgaon</option>
+                        <option value="2718">Momanbadodiya</option>
+                        <option value="554">Morena</option>
+                        <option value="3891">Morena(F&amp;V)</option>
+                        <option value="3064">Mow</option>
+                        <option value="1371">Multai</option>
+                        <option value="2634">Mungawali</option>
+                        <option value="2463">Nagda</option>
+                        <option value="2435">Nagod</option>
+                        <option value="3049">Nainpur</option>
+                        <option value="2458">Nalkehda</option>
+                        <option value="2429">Narsinghgarh</option>
+                        <option value="557">Narsinghpur</option>
+                        <option value="1833">Nasrullaganj</option>
+                        <option value="8320">Naugaon</option>
+                        <option value="190">Neemuch</option>
+                        <option value="2452">Niwadi</option>
+                        <option value="3896">Niwadi(F&amp;V)</option>
+                        <option value="1835">Obedullaganj</option>
+                        <option value="8326">Paatan</option>
+                        <option value="2428">Pachaur</option>
+                        <option value="8329">Palari</option>
+                        <option value="8324">Palera</option>
+                        <option value="2451">Pandhana</option>
+                        <option value="3878">Pandhana(F&amp;V)</option>
+                        <option value="2418">Pandhurna</option>
+                        <option value="3903">Pandhurna(F&amp;V)</option>
+                        <option value="817">Panna</option>
+                        <option value="1387">Patharia</option>
+                        <option value="8321">Pawai</option>
+                        <option value="1374">Petlawad</option>
+                        <option value="2736">Pichhour</option>
+                        <option value="553">Pipariya</option>
+                        <option value="2711">Piplya</option>
+                        <option value="3796">Piprai</option>
+                        <option value="2446">Pohari</option>
+                        <option value="2743">Porsa</option>
+                        <option value="3892">Porsa(F&amp;V)</option>
+                        <option value="3802">Praswada</option>
+                        <option value="8325">Prithvipur</option>
+                        <option value="3062">Raghogarh</option>
+                        <option value="2710">Rahatgarh</option>
+                        <option value="558">Raisen</option>
+                        <option value="2693">Rajgarh</option>
+                        <option value="2728">Rajnagar</option>
+                        <option value="3804">Ramnagar</option>
+                        <option value="8313">Rannod</option>
+                        <option value="551">Ratlam</option>
+                        <option value="3884">Ratlam(F&amp;V)</option>
+                        <option value="2697">Rehati</option>
+                        <option value="2460">Rehli</option>
+                        <option value="560">Rewa</option>
+                        <option value="2466">Sabalgarh</option>
+                        <option value="549">Sagar</option>
+                        <option value="3894">Sagar(F&amp;V)</option>
+                        <option value="2431">Sailana</option>
+                        <option value="193">Sajapur</option>
+                        <option value="1375">Sanawad</option>
+                        <option value="2417">Sanwer</option>
+                        <option value="2709">Sarangpur</option>
+                        <option value="194">Satna</option>
+                        <option value="3906">Satna(F&amp;V)</option>
+                        <option value="2432">Saunsar</option>
+                        <option value="3904">Saunsar (F&amp;V)</option>
+                        <option value="2719">Segaon</option>
+                        <option value="1775">Sehora</option>
+                        <option value="550">Sehore</option>
+                        <option value="2453">Semriharchand</option>
+                        <option value="1134">Sendhwa</option>
+                        <option value="561">Seoni</option>
+                        <option value="2744">Sevda</option>
+                        <option value="3068">Shadora</option>
+                        <option value="2735">Shahagarh</option>
+                        <option value="562">Shahdol</option>
+                        <option value="3169">Shahpura</option>
+                        <option value="3899">Shahpura Bhitoni (F&amp;V)</option>
+                        <option value="1389">Shahpura(Jabalpur)</option>
+                        <option value="2440">Shajapur</option>
+                        <option value="3885">Shajapur(F&amp;V)</option>
+                        <option value="2700">Shamgarh</option>
+                        <option value="3883">Shamgarh(F&amp;V)</option>
+                        <option value="2707">Shamshabad</option>
+                        <option value="2701">Sheopurbadod</option>
+                        <option value="1129">Sheopurkalan</option>
+                        <option value="563">Shivpuri</option>
+                        <option value="3889">Shivpuri(F&amp;V)</option>
+                        <option value="1128">Shujalpur</option>
+                        <option value="2731">Shyampur</option>
+                        <option value="821">Sidhi</option>
+                        <option value="8000">Sihora</option>
+                        <option value="3897">Sihora(F&amp;V)</option>
+                        <option value="8310">Silvani</option>
+                        <option value="8322">Simariya</option>
+                        <option value="2730">Singroli</option>
+                        <option value="8309">Sirali</option>
+                        <option value="2427">Sironj</option>
+                        <option value="3066">Sitmau</option>
+                        <option value="1379">Sonkatch</option>
+                        <option value="4210">Soyatkalan</option>
+                        <option value="2723">Susner</option>
+                        <option value="3059">Suthalia</option>
+                        <option value="2468">Suvasra</option>
+                        <option value="3893">Syopurkalan(F&amp;V)</option>
+                        <option value="2741">Taal</option>
+                        <option value="1377">Tarana</option>
+                        <option value="2715">Tendukheda</option>
+                        <option value="2439">Thandla</option>
+                        <option value="564">Tikamgarh</option>
+                        <option value="2421">Timarni</option>
+                        <option value="2434">Udaipura</option>
+                        <option value="197">Ujjain</option>
+                        <option value="3880">Ujjain(F&amp;V)</option>
+                        <option value="1394">Umariya</option>
+                        <option value="2717">Unhel</option>
+                        <option value="2444">Varaseoni</option>
+                        <option value="199">Vidisha</option>
+                        <option value="3057">Vijaypur</option>
+                        <option value="9992">Z[State Total]</option></select
+                      ><select
+                        class="form-select"
+                        style="margin-top: 16px; margin-bottom: 16px"
+                        id="2"
+                      >
+                        <option value="0">Select Crop</option>
+                        <option value="137">Ajwan</option>
+                        <option value="281">Alasande Gram</option>
+                        <option value="325">Almond(Badam)</option>
+                        <option value="166">Alsandikai</option>
+                        <option value="86">Amaranthus</option>
+                        <option value="130">Ambada Seed</option>
+                        <option value="355">Amla(Nelli Kai)</option>
+                        <option value="102">Amphophalus</option>
+                        <option value="209">Antawala</option>
+                        <option value="379">Anthorium</option>
+                        <option value="17">Apple</option>
+                        <option value="326">Apricot(Jardalu/Khumani)</option>
+                        <option value="140">Arecanut(Betelnut/Supari)</option>
+                        <option value="49">Arhar (Tur/Red Gram)(Whole)</option>
+                        <option value="260">Arhar Dal(Tur Dal)</option>
+                        <option value="83">Ashgourd</option>
+                        <option value="232">Astera</option>
+                        <option value="269">Avare Dal</option>
+                        <option value="28">Bajra(Pearl Millet/Cumbu)</option>
+                        <option value="274">Balekai</option>
+                        <option value="204">Bamboo</option>
+                        <option value="19">Banana</option>
+                        <option value="90">Banana - Green</option>
+                        <option value="29">Barley (Jau)</option>
+                        <option value="321">Bay leaf (Tejpatta)</option>
+                        <option value="94">Beans</option>
+                        <option value="262">Beaten Rice</option>
+                        <option value="157">Beetroot</option>
+                        <option value="263">Bengal Gram Dal (Chana Dal)</option>
+                        <option value="6">Bengal Gram(Gram)(Whole)</option>
+                        <option value="357">Ber(Zizyphus/Borehannu)</option>
+                        <option value="143">Betal Leaves</option>
+                        <option value="41">Betelnuts</option>
+                        <option value="85">Bhindi(Ladies Finger)</option>
+                        <option value="113">Big Gram</option>
+                        <option value="51">Binoula</option>
+                        <option value="81">Bitter gourd</option>
+                        <option value="8">Black Gram (Urd Beans)(Whole)</option>
+                        <option value="264">Black Gram Dal (Urd Dal)</option>
+                        <option value="38">Black pepper</option>
+                        <option value="380">BOP</option>
+                        <option value="189">Borehannu</option>
+                        <option value="82">Bottle gourd</option>
+                        <option value="290">Bran</option>
+                        <option value="35">Brinjal</option>
+                        <option value="293">Broken Rice</option>
+                        <option value="320">Broomstick(Flower Broom)</option>
+                        <option value="214">Bull</option>
+                        <option value="284">Bullar</option>
+                        <option value="224">Bunch Beans</option>
+                        <option value="272">Butter</option>
+                        <option value="154">Cabbage</option>
+                        <option value="215">Calf</option>
+                        <option value="354">Camel Hair</option>
+                        <option value="205">Cane</option>
+                        <option value="164">Capsicum</option>
+                        <option value="40">Cardamoms</option>
+                        <option value="375">Carnation</option>
+                        <option value="153">Carrot</option>
+                        <option value="238">Cashew Kernnel</option>
+                        <option value="36">Cashewnuts</option>
+                        <option value="270">Castor Oil</option>
+                        <option value="123">Castor Seed</option>
+                        <option value="34">Cauliflower</option>
+                        <option value="188">Chakotha</option>
+                        <option value="169">Chapparad Avare</option>
+                        <option value="241">Chennangi (Whole)</option>
+                        <option value="295">Chennangi Dal</option>
+                        <option value="328">Cherry</option>
+                        <option value="71">Chikoos(Sapota)</option>
+                        <option value="26">Chili Red</option>
+                        <option value="88">Chilly Capsicum</option>
+                        <option value="167">Chow Chow</option>
+                        <option value="402">Chrysanthemum</option>
+                        <option value="231">Chrysanthemum(Loose)</option>
+                        <option value="316">Cinamon(Dalchini)</option>
+                        <option value="105">Cloves</option>
+                        <option value="80">Cluster beans</option>
+                        <option value="315">Coca</option>
+                        <option value="368">Cock</option>
+                        <option value="104">Cocoa</option>
+                        <option value="138">Coconut</option>
+                        <option value="266">Coconut Oil</option>
+                        <option value="112">Coconut Seed</option>
+                        <option value="45">Coffee</option>
+                        <option value="318">Colacasia</option>
+                        <option value="129">Copra</option>
+                        <option value="43">Coriander(Leaves)</option>
+                        <option value="108">Corriander seed</option>
+                        <option value="15">Cotton</option>
+                        <option value="99">Cotton Seed</option>
+                        <option value="212">Cow</option>
+                        <option value="92">Cowpea (Lobia/Karamani)</option>
+                        <option value="89">Cowpea(Veg)</option>
+                        <option value="159">Cucumbar(Kheera)</option>
+                        <option value="42">Cummin Seed(Jeera)</option>
+                        <option value="352">Custard Apple (Sharifa)</option>
+                        <option value="382">Daila(Chandni)</option>
+                        <option value="91">Dal (Avare)</option>
+                        <option value="273">Dalda</option>
+                        <option value="410">Delha</option>
+                        <option value="69">Dhaincha</option>
+                        <option value="168">Drumstick</option>
+                        <option value="132">Dry Chillies</option>
+                        <option value="345">Dry Fodder</option>
+                        <option value="278">Dry Grapes</option>
+                        <option value="370">Duck</option>
+                        <option value="163">Duster Beans</option>
+                        <option value="367">Egg</option>
+                        <option value="361">Egypian Clover(Barseem)</option>
+                        <option value="296">Elephant Yam (Suran)</option>
+                        <option value="64">Field Pea</option>
+                        <option value="221">Fig(Anjura/Anjeer)</option>
+                        <option value="206">Firewood</option>
+                        <option value="366">Fish</option>
+                        <option value="365">Flower Broom</option>
+                        <option value="121">Foxtail Millet(Navane)</option>
+                        <option value="298">French Beans (Frasbean)</option>
+                        <option value="350">Galgal(Lemon)</option>
+                        <option value="25">Garlic</option>
+                        <option value="249">Ghee</option>
+                        <option value="276">Gingelly Oil</option>
+                        <option value="27">Ginger(Dry)</option>
+                        <option value="103">Ginger(Green)</option>
+                        <option value="364">Gladiolus Bulb</option>
+                        <option value="363">Gladiolus Cut Flower</option>
+                        <option value="219">Goat</option>
+                        <option value="353">Goat Hair</option>
+                        <option value="359">Gram Raw(Chholia)</option>
+                        <option value="294">Gramflour</option>
+                        <option value="22">Grapes</option>
+                        <option value="165">Green Avare (W)</option>
+                        <option value="87">Green Chilli</option>
+                        <option value="346">Green Fodder</option>
+                        <option value="9">Green Gram (Moong)(Whole)</option>
+                        <option value="265">Green Gram Dal (Moong Dal)</option>
+                        <option value="50">Green Peas</option>
+                        <option value="267">Ground Nut Oil</option>
+                        <option value="268">Ground Nut Seed</option>
+                        <option value="10">Groundnut</option>
+                        <option value="314">Groundnut (Split)</option>
+                        <option value="312">Groundnut pods (raw)</option>
+                        <option value="75">Guar</option>
+                        <option value="413">
+                          Guar Seed(Cluster Beans Seed)
+                        </option>
+                        <option value="185">Guava</option>
+                        <option value="74">Gur(Jaggery)</option>
+                        <option value="279">Gurellu</option>
+                        <option value="252">Haralekai</option>
+                        <option value="216">He Buffalo</option>
+                        <option value="369">Hen</option>
+                        <option value="125">Hippe Seed</option>
+                        <option value="236">Honey</option>
+                        <option value="124">Honge seed</option>
+                        <option value="119">Hybrid Cumbu</option>
+                        <option value="299">Indian Beans (Seam)</option>
+                        <option value="344">Indian Colza(Sarson)</option>
+                        <option value="256">Isabgul (Psyllium)</option>
+                        <option value="182">Jack Fruit</option>
+                        <option value="406">Jaffri</option>
+                        <option value="151">Jaggery</option>
+                        <option value="175">Jamamkhan</option>
+                        <option value="184">Jamun(Narale Hannu)</option>
+                        <option value="376">Jarbara</option>
+                        <option value="229">Jasmine</option>
+                        <option value="250">Javi</option>
+                        <option value="5">Jowar(Sorghum)</option>
+                        <option value="16">Jute</option>
+                        <option value="210">Jute Seed</option>
+                        <option value="362">
+                          Kabuli Chana(Chickpeas-White)
+                        </option>
+                        <option value="317">Kacholam</option>
+                        <option value="230">Kakada</option>
+                        <option value="233">Kankambra</option>
+                        <option value="115">Karamani</option>
+                        <option value="187">Karbuja(Musk Melon)</option>
+                        <option value="305">Kartali (Kantola)</option>
+                        <option value="61">Kharif Mash</option>
+                        <option value="372">Khoya</option>
+                        <option value="336">Kinnow</option>
+                        <option value="177">Knool Khol</option>
+                        <option value="117">Kodo Millet(Varagu)</option>
+                        <option value="243">Kuchur</option>
+                        <option value="114">Kulthi(Horse Gram)</option>
+                        <option value="155">Ladies Finger</option>
+                        <option value="96">Lak(Teora)</option>
+                        <option value="171">Leafy Vegetable</option>
+                        <option value="310">Lemon</option>
+                        <option value="63">Lentil (Masur)(Whole)</option>
+                        <option value="378">Lilly</option>
+                        <option value="180">Lime</option>
+                        <option value="67">Linseed</option>
+                        <option value="280">Lint</option>
+                        <option value="351">Litchi</option>
+                        <option value="302">Little gourd (Kundru)</option>
+                        <option value="304">Long Melon(Kakri)</option>
+                        <option value="403">Lotus</option>
+                        <option value="339">Lotus Sticks</option>
+                        <option value="337">Lukad</option>
+                        <option value="107">Mace</option>
+                        <option value="411">Mahedi</option>
+                        <option value="335">Mahua</option>
+                        <option value="371">Mahua Seed(Hippe seed)</option>
+                        <option value="288">Maida Atta</option>
+                        <option value="4">Maize</option>
+                        <option value="20">Mango</option>
+                        <option value="172">Mango (Raw-Ripe)</option>
+                        <option value="225">Maragensu</option>
+                        <option value="181">Marasebu</option>
+                        <option value="407">Marget</option>
+                        <option value="235">Marigold(Calcutta)</option>
+                        <option value="405">Marigold(loose)</option>
+                        <option value="60">Mash</option>
+                        <option value="340">Mashrooms</option>
+                        <option value="259">Masur Dal</option>
+                        <option value="93">Mataki</option>
+                        <option value="47">Methi Seeds</option>
+                        <option value="46">Methi(Leaves)</option>
+                        <option value="237">Millets</option>
+                        <option value="360">Mint(Pudina)</option>
+                        <option value="258">Moath Dal</option>
+                        <option value="95">Moath Dal</option>
+                        <option value="77">Mousambi(Sweet Lime)</option>
+                        <option value="12">Mustard</option>
+                        <option value="324">Mustard Oil</option>
+                        <option value="142">Myrobolan(Harad)</option>
+                        <option value="245">Nargasi</option>
+                        <option value="222">Nearle Hannu</option>
+                        <option value="126">Neem Seed</option>
+                        <option value="223">Nelli Kai</option>
+                        <option value="98">Niger Seed (Ramtil)</option>
+                        <option value="106">Nutmeg</option>
+                        <option value="23">Onion</option>
+                        <option value="358">Onion Green</option>
+                        <option value="18">Orange</option>
+                        <option value="381">Orchid</option>
+                        <option value="97">Other Pulses</option>
+                        <option value="213">Ox</option>
+                        <option value="414">Paddy(Dhan)(Basmati)</option>
+                        <option value="2">Paddy(Dhan)(Common)</option>
+                        <option value="72">Papaya</option>
+                        <option value="313">Papaya (Raw)</option>
+                        <option value="404">Patti Calcutta</option>
+                        <option value="331">Peach</option>
+                        <option value="330">Pear(Marasebu)</option>
+                        <option value="308">Peas cod</option>
+                        <option value="174">Peas Wet</option>
+                        <option value="347">Peas(Dry)</option>
+                        <option value="301">Pegeon Pea (Arhar Fali)</option>
+                        <option value="109">Pepper garbled</option>
+                        <option value="110">Pepper ungarbled</option>
+                        <option value="327">Persimon(Japani Fal)</option>
+                        <option value="220">Pigs</option>
+                        <option value="21">Pineapple</option>
+                        <option value="329">Plum</option>
+                        <option value="303">Pointed gourd (Parval)</option>
+                        <option value="240">Polherb</option>
+                        <option value="190">Pomegranate</option>
+                        <option value="24">Potato</option>
+                        <option value="84">Pumpkin</option>
+                        <option value="254">Pundi</option>
+                        <option value="128">Pundi Seed</option>
+                        <option value="161">Raddish</option>
+                        <option value="30">Ragi (Finger Millet)</option>
+                        <option value="409">Raibel</option>
+                        <option value="248">Rajgir</option>
+                        <option value="282">Ram</option>
+                        <option value="307">Rat Tail Radish (Mogari)</option>
+                        <option value="65">Raya</option>
+                        <option value="7">Red Gram</option>
+                        <option value="322">Resinwood</option>
+                        <option value="62">Riccbcan</option>
+                        <option value="3">Rice</option>
+                        <option value="160">Ridgeguard(Tori)</option>
+                        <option value="374">Rose(Local)</option>
+                        <option value="228">Rose(Loose))</option>
+                        <option value="373">Rose(Tata)</option>
+                        <option value="306">Round gourd</option>
+                        <option value="111">Rubber</option>
+                        <option value="291">Sabu Dan</option>
+                        <option value="59">Safflower</option>
+                        <option value="338">Saffron</option>
+                        <option value="271">Sajje</option>
+                        <option value="122">Same/Savi</option>
+                        <option value="247">Sarasum</option>
+                        <option value="277">Season Leaves</option>
+                        <option value="253">Seegu</option>
+                        <option value="176">Seemebadnekai</option>
+                        <option value="201">Seetapal</option>
+                        <option value="11">Sesamum(Sesame,Gingelly,Til)</option>
+                        <option value="217">She Buffalo</option>
+                        <option value="283">She Goat</option>
+                        <option value="218">Sheep</option>
+                        <option value="183">Siddota</option>
+                        <option value="226">Skin And Hide</option>
+                        <option value="156">Snakeguard</option>
+                        <option value="135">Soanf</option>
+                        <option value="207">Soapnut(Antawala/Retha)</option>
+                        <option value="286">Soji</option>
+                        <option value="246">Sompu</option>
+                        <option value="13">Soyabean</option>
+                        <option value="342">Spinach</option>
+                        <option value="311">Sponge gourd</option>
+                        <option value="332">Squash(Chappal Kadoo)</option>
+                        <option value="48">Sugar</option>
+                        <option value="150">Sugarcane</option>
+                        <option value="14">Sunflower</option>
+                        <option value="285">Sunflower Seed</option>
+                        <option value="139">Sunhemp</option>
+                        <option value="242">Suram</option>
+                        <option value="300">Surat Beans (Papadi)</option>
+                        <option value="255">Suva (Dill Seed)</option>
+                        <option value="178">Suvarna Gadde</option>
+                        <option value="152">Sweet Potato</option>
+                        <option value="173">Sweet Pumpkin</option>
+                        <option value="120">T.V. Cumbu</option>
+                        <option value="261">Tamarind Fruit</option>
+                        <option value="208">Tamarind Seed</option>
+                        <option value="100">Tapioca</option>
+                        <option value="76">Taramira</option>
+                        <option value="44">Tea</option>
+                        <option value="200">Tender Coconut</option>
+                        <option value="116">Thinai (Italian Millet)</option>
+                        <option value="170">Thogrikai</option>
+                        <option value="162">Thondekai</option>
+                        <option value="349">Tinda</option>
+                        <option value="141">Tobacco</option>
+                        <option value="78">Tomato</option>
+                        <option value="323">Torchwood</option>
+                        <option value="66">Toria</option>
+                        <option value="234">Tube Flower</option>
+                        <option value="401">Tube Rose(Double)</option>
+                        <option value="408">Tube Rose(Loose)</option>
+                        <option value="377">Tube Rose(Single)</option>
+                        <option value="39">Turmeric</option>
+                        <option value="309">Turmeric (raw)</option>
+                        <option value="341">Turnip</option>
+                        <option value="343">Walnut</option>
+                        <option value="73">Water Melon</option>
+                        <option value="1">Wheat</option>
+                        <option value="287">Wheat Atta</option>
+                        <option value="412">White Peas</option>
+                        <option value="158">White Pumpkin</option>
+                        <option value="203">Wood</option>
+                        <option value="348">Wool</option>
+                        <option value="244">Yam</option>
+                        <option value="297">Yam (Ratalu)</option></select
+                      ><select class="form-select" id="3">
+                        <option selected="selected" value="0">
+                          Select District
+                        </option>
+
+                        <option value="58">Anupur</option>
+                        <option value="57">Ashoknagar</option>
+                        <option value="56">Badwani</option>
+                        <option value="17">Balaghat</option>
+                        <option value="19">Betul</option>
+                        <option value="20">Bhind</option>
+                        <option value="1">Bhopal</option>
+                        <option value="60">Burhanpur</option>
+                        <option value="22">Chhatarpur</option>
+                        <option value="23">Chhindwara</option>
+                        <option value="24">Damoh</option>
+                        <option value="59">Alirajpur</option>
+                        <option value="49">Datia</option>
+                        <option value="2">Dewas</option>
+                        <option value="50">Dhar</option>
+                        <option value="51">Dindori</option>
+                        <option value="4">Guna</option>
+                        <option value="5">Gwalior</option>
+                        <option value="52">Harda</option>
+                        <option value="27">Hoshangabad</option>
+                        <option value="6">Indore</option>
+                        <option value="7">Jabalpur</option>
+                        <option value="28">Jhabua</option>
+                        <option value="53">Katni</option>
+                        <option value="29">Khandwa</option>
+                        <option value="30">Khargone</option>
+                        <option value="31">Mandla</option>
+                        <option value="32">Mandsaur</option>
+                        <option value="33">Morena</option>
+                        <option value="34">Narsinghpur</option>
+                        <option value="9">Neemuch</option>
+                        <option value="35">Panna</option>
+                        <option value="37">Raisen</option>
+                        <option value="38">Rajgarh</option>
+                        <option value="39">Ratlam</option>
+                        <option value="40">Rewa</option>
+                        <option value="41">Sagar</option>
+                        <option value="13">Satna</option>
+                        <option value="16">Sehore</option>
+                        <option value="43">Seoni</option>
+                        <option value="12">Shajapur</option>
+                        <option value="44">Shehdol</option>
+                        <option value="54">Sheopur</option>
+                        <option value="45">Shivpuri</option>
+                        <option value="46">Sidhi</option>
+                        <option value="61">Singroli</option>
+                        <option value="48">Tikamgarh</option>
+                        <option value="14">Ujjain</option>
+                        <option value="55">Umariya</option>
+                        <option value="15">Vidisha</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        class="form-control"
+                        id="email-3"
+                        name="Date"
+                        placeholder="Enter Date"
+                        style="margin-top: 16px"
+                        required=""
+                        type="date"
+                      />
+                    </div>
+                    <div class="mb-3"></div>
+                    <div>
+                      <button
+                        class="btn btn-primary d-block w-100"
+                        type="submit"
+                        id="bt"
+                      >
+                        Get Forecast
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer class="bg-primary-gradient">
+      <div class="container py-4 py-lg-5">
+        <div
+          class="row text-center d-flex flex-row justify-content-center align-items-center align-content-center"
+        >
+          <div
+            class="col-lg-3 text-center text-lg-start d-flex flex-row justify-content-center align-items-center align-content-center align-self-center order-first align-items-lg-start order-lg-last"
+            style="padding-left: 0px; margin-left: 0px"
+          >
+            <div
+              class="fw-bold d-flex justify-content-center align-items-center mb-2"
+            >
+              <span
+                class="bs-icon-sm bs-icon-circle bs-icon-primary d-flex justify-content-center align-items-center bs-icon me-2"
+                ><i class="fab fa-reacteurope"></i></span
+              ><span>E-Mandi</span>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div
+          class="text-muted d-flex justify-content-between align-items-center pt-3"
+        >
+          <p class="mb-0">Copyright © 2023 Brand</p>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                class="bi bi-facebook"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                ></path>
+              </svg>
+            </li>
+            <li class="list-inline-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                class="bi bi-twitter"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                ></path>
+              </svg>
+            </li>
+            <li class="list-inline-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                class="bi bi-instagram"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                ></path>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bold-and-bright.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
